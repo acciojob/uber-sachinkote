@@ -52,7 +52,7 @@ public class CustomerServiceImpl implements CustomerService {
 		List<Driver> l=driverRepository2.findAll();
 		for(Driver driver:l)
 		{
-			if(driver.getCab().isAvailable()==Boolean.TRUE)
+			if(driver.getCab().getAvailable()==Boolean.TRUE)
 			{
 				if((d==null)|| (driver.getDriverId()>driver.getDriverId()))
 				{
