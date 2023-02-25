@@ -60,6 +60,7 @@ public class AdminServiceImpl implements AdminService {
 	public List<Customer> getListOfCustomers() {
 		//Find the list of all customers
         List<Customer>l=customerRepository1.findAll();
+		return l;
 	}
 
 }
