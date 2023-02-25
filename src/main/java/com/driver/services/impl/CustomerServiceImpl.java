@@ -32,7 +32,7 @@ public class CustomerServiceImpl implements CustomerService {
 	@Override
 	public void register(Customer customer) {
 		//Save the customer in database
-		customer.save(customer);
+		customerRepository2.save(customer);
 	}
 
 	@Override
