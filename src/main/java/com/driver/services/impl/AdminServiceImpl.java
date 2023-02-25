@@ -59,7 +59,7 @@ public class AdminServiceImpl implements AdminService {
 	@Override
 	public List<Customer> getListOfCustomers() {
 		//Find the list of all customers
-        Lsit<Customer>l=customerRepository1.findAll();
+        List<Customer>l=customerRepository1.findAll();
 	}
 
 }
